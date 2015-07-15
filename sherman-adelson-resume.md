@@ -20,6 +20,7 @@ Responsible for team maintaining customer facing software and building replaceme
 * Responsible for IOS and Android app deployments for multiple teams.
 * Was one of two people called for urgent customer-facing incidents, including after-hours and on weekends.
 * Performed quarterly performance evaluations of people in my team.
+
 ####Back-end Developer - September 2014 to February 2015
 Responsible for maintaining and enhancing customer facing software for the Delivery Team.
 * Maintained legacy websites and fulfilled customer requests with short deadlines.
@@ -28,6 +29,7 @@ Responsible for maintaining and enhancing customer facing software for the Deliv
 * Developed automated scripts to simplify workflow for legacy system maintenance.
 * Responsible for production and QA deployment of Magento e-commerce platform.
 * Contributed to documentation of legacy maintenance tasks.
+
 ###Really Big Spiders, LLC
 ####Owner, Web Designer, Software Engineer - 2007 to Present
 Tales From the Strange Universe (TFTSU) http://www.tftsu.com/
