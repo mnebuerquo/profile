@@ -1,10 +1,10 @@
 ﻿#Sherman Adelson
 
-6067 Wayside Avenue,
+6067 Wayside Avenue
 Cincinnati, OH 45230
 
-(513)-218-8048
-sherman.adelson@gmail.com
+*(513)-218-8048*
+*sherman.adelson@gmail.com*
 
 ##Professional Summary:
 
@@ -32,7 +32,7 @@ Responsible for maintaining and enhancing customer facing software for the Deliv
 
 ###Really Big Spiders, LLC
 ####Owner, Web Designer, Software Engineer - 2007 to Present
-Tales From the Strange Universe (TFTSU) http://www.tftsu.com/
+*Tales From the Strange Universe (TFTSU)* http://www.tftsu.com/
 
 Developed Tales From the Strange Universe, an internet browser game with players in more than 10 countries.
 * Designed and built TFTSU using PHP, Linux, Nginx, and MySql. 
@@ -45,7 +45,7 @@ Developed Tales From the Strange Universe, an internet browser game with players
 * Used Python and Bash to automate server deployment, configuration, and dependency installation on Amazon EC2 instances. Automated code deployment from Subversion repository to web server using Python. Automated nightly backups of all databases to Amazon S3.
 * Ran a successful Kickstarter campaign to raise funds for completing development.
 
-Web Design
+*Web Design*
 
 Designed web sites and customized Open Source web applications to customer requirements.
 * Customized OSCommerce systems including user interface changes, adding and removing payment flow steps, replacing contact forms, and special order tracking.
@@ -55,13 +55,13 @@ Designed web sites and customized Open Source web applications to customer requi
 
 ###Ohmart/Vega Corp.
 ####Software Engineer - 2003 to 2007
-Industrial Insight Wireless Sensor System
+*Industrial Insight Wireless Sensor System*
 
 Designed and wrote software under supervision of Industrial Insight Product Manager.
 * Designed and wrote user interface software for Industrial Insight wireless sensor products. 
 * Designed and wrote software used for testing and initial configuration in manufacturing.
 
-Gen 2000 Nuclear Sensors
+*Gen 2000 Nuclear Sensors*
 
 Maintained software for flagship product line under the supervision of the Engineering Manager. Duties included maintaining both internal and external software in the sensor products, adding features to the software, understanding customer applications, and developing custom builds for special applications.
 * Maintained embedded software in Gen 2000 products using a hardware specific C compiler and real-time operating system. 
@@ -71,7 +71,7 @@ Maintained software for flagship product line under the supervision of the Engin
 * Provided advanced phone diagnostic support for service technicians and customers on critical applications. Provided on-site emergency support for some customers.
 * Maintained software used for testing product during manufacturing steps.
 
-Pro Trac Nuclear Sensors
+*Pro Trac Nuclear Sensors*
 
 Designed and wrote software under the supervision of the Pro Trac Project Manager.
 * Designed and wrote embedded software for Pro Trac products.
