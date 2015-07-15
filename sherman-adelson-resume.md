@@ -35,7 +35,7 @@ Responsible for maintaining and enhancing customer facing software for the Deliv
 *Tales From the Strange Universe (TFTSU)* http://www.tftsu.com/
 
 Developed Tales From the Strange Universe, an internet browser game with players in more than 10 countries.
-* Designed and built TFTSU using PHP, Linux, Nginx, and MySql. 
+* Designed and built TFTSU using PHP, Python, Javascript, Linux, Nginx, and MySql. 
 * Used Ajax techniques with jQuery and Javascript to implement advanced user interface features. 
 * Built a pay-to-play token system using Amazon FPS for credit card processing. Later migrated payment system from Amazon FPS to Stripe.
 * Performed multiple rounds of Usability Testing to refine interface and features. 
@@ -109,7 +109,7 @@ Minor in Mathematics
 ##Technologies:
 ###Languages:
 Javascript, Python, PHP, SQL, Bash, C/C++, Perl, Object Pascal, Visual Basic, Scheme
-Libraries and Frameworks:
+###Libraries and Frameworks:
 Node.js, Express, Django, Tornado Web Server, jQuery, Ember, Silverstripe
 ###Software:
 Linux, Apache, Nginx, Mysql, MongoDB, Git, Vagrant, VirtualBox, Amazon Web Services (EC2, S3, ELB, FPS), Wordpress, Stripe, Subversion, Plesk, Simple Machines Forums, Drupal, osCommerce
