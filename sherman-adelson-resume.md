@@ -20,13 +20,15 @@ Responsible for team maintaining customer facing software and building replaceme
 * Responsible for IOS and Android app deployments for multiple teams.
 * Was one of two people called for urgent customer-facing incidents, including after-hours and on weekends.
 * Performed quarterly performance evaluations of people in my team.
+* Continued to perform the duties of a Back-end Developer in addition to
+  the Team Lead responsibilities.
 
 ####Back-end Developer - September 2014 to February 2015
 Responsible for maintaining and enhancing customer facing software for the Delivery Team.
 * Maintained legacy websites and fulfilled customer requests with short deadlines.
 * Fixed bugs and added features to 8 different CMS and website platforms in Node.js and PHP.
 * Wrote data segmentation tools to show priority clients the effects of their customer loyalty programs on sales in weekly reports.
-* Fixed bugs and added features to website products using multiple API integrations including Fishbowl, Exact Target, Google Analytics and others.
+* Maintained and added website platform features using external API integrations including Fishbowl, Exact Target, Google Analytics and others.
 * Developed automated scripts to simplify workflow for legacy system maintenance.
 * Responsible for production and QA deployment of Magento e-commerce platform.
 * Contributed to documentation of legacy maintenance tasks.
