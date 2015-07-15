@@ -21,7 +21,7 @@ Responsible for team maintaining customer facing software and building replaceme
 * Was one of two people called for urgent customer-facing incidents, including after-hours and on weekends.
 * Performed quarterly performance evaluations of people in my team.
 * Continued to perform the duties of a Back-end Developer in addition to
-  the Team Lead responsibilities.
+  fulfilling Team Lead responsibilities.
 
 ####Back-end Developer - September 2014 to February 2015
 Responsible for maintaining and enhancing customer facing software for the Delivery Team.
