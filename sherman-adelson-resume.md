@@ -26,6 +26,7 @@ Responsible for maintaining and enhancing customer facing software for the Deliv
 * Maintained legacy websites and fulfilled customer requests with short deadlines.
 * Fixed bugs and added features to 8 different CMS and website platforms in Node.js and PHP.
 * Wrote data segmentation tools to show priority clients the effects of their customer loyalty programs on sales in weekly reports.
+* Fixed bugs and added features to website products using multiple API integrations including Fishbowl, Exact Target, Google Analytics and others.
 * Developed automated scripts to simplify workflow for legacy system maintenance.
 * Responsible for production and QA deployment of Magento e-commerce platform.
 * Contributed to documentation of legacy maintenance tasks.
@@ -108,11 +109,11 @@ Minor in Mathematics
 
 ##Technologies:
 ###Languages:
-Javascript, Python, PHP, SQL, Bash, C/C++, Perl, Object Pascal, Visual Basic, Scheme
+Javascript, Node.js, Python, PHP, SQL, Bash, C/C++, Perl, Object Pascal, Visual Basic
 ###Libraries and Frameworks:
-Node.js, Express, Django, Tornado Web Server, jQuery, Ember, Silverstripe
+Express, Django, jQuery, Tornado Web Server, Ember, Silverstripe, Zend
 ###Software:
-Linux, Apache, Nginx, Mysql, MongoDB, Git, Vagrant, VirtualBox, Amazon Web Services (EC2, S3, ELB, FPS), Wordpress, Stripe, Subversion, Plesk, Simple Machines Forums, Drupal, osCommerce
+Linux, Apache, Nginx, Mysql, MongoDB, Git, Amazon Web Services (EC2, S3, ELB, FPS), Vagrant, VirtualBox, Wordpress, Stripe, Subversion, Plesk, Simple Machines Forums, Drupal, osCommerce, Magento Ecommerce
 ###Techniques:
 Web Application Design, Ajax, Comet, User Interface Design, Object Oriented Design, Database Design, Agile/Scrum
 
