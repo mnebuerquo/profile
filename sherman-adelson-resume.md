@@ -33,6 +33,7 @@ Responsible for maintaining and enhancing customer facing software for the Deliv
 ###Really Big Spiders, LLC
 ####Owner, Web Designer, Software Engineer - 2007 to Present
 Tales From the Strange Universe (TFTSU) http://www.tftsu.com/
+
 Developed Tales From the Strange Universe, an internet browser game with players in more than 10 countries.
 * Designed and built TFTSU using PHP, Linux, Nginx, and MySql. 
 * Used Ajax techniques with jQuery and Javascript to implement advanced user interface features. 
@@ -45,6 +46,7 @@ Developed Tales From the Strange Universe, an internet browser game with players
 * Ran a successful Kickstarter campaign to raise funds for completing development.
 
 Web Design
+
 Designed web sites and customized Open Source web applications to customer requirements.
 * Customized OSCommerce systems including user interface changes, adding and removing payment flow steps, replacing contact forms, and special order tracking.
 * Customized Wordpress sites, including creating themes and modifying administrative interface. Wrote programs to batch import hundreds of articles and photos.
@@ -54,10 +56,13 @@ Designed web sites and customized Open Source web applications to customer requi
 ###Ohmart/Vega Corp.
 ####Software Engineer - 2003 to 2007
 Industrial Insight Wireless Sensor System
+
 Designed and wrote software under supervision of Industrial Insight Product Manager.
 * Designed and wrote user interface software for Industrial Insight wireless sensor products. 
 * Designed and wrote software used for testing and initial configuration in manufacturing.
+
 Gen 2000 Nuclear Sensors
+
 Maintained software for flagship product line under the supervision of the Engineering Manager. Duties included maintaining both internal and external software in the sensor products, adding features to the software, understanding customer applications, and developing custom builds for special applications.
 * Maintained embedded software in Gen 2000 products using a hardware specific C compiler and real-time operating system. 
 * Automated build and deployment steps for Gen 2000 embedded software. Reduced the 5 step manual procedure to a single build script, saving approximately 10 minutes per build/debug cycle and preventing several common human errors. 
@@ -65,7 +70,9 @@ Maintained software for flagship product line under the supervision of the Engin
 * Documented build requirements and development environment installation steps for Gen 2000 products, ensuring reproducibility, preventing missing dependencies, and reducing setup time for new developer workstations. 
 * Provided advanced phone diagnostic support for service technicians and customers on critical applications. Provided on-site emergency support for some customers.
 * Maintained software used for testing product during manufacturing steps.
+
 Pro Trac Nuclear Sensors
+
 Designed and wrote software under the supervision of the Pro Trac Project Manager.
 * Designed and wrote embedded software for Pro Trac products.
 * Developed all software to Safety Integrity Level II standards, using the IAR embedded C/C++ compiler, IBM Rhapsody and IBM Test Real Time.
