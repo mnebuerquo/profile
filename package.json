@@ -1,0 +1,30 @@
+{
+  "name": "sherman-adelson",
+  "version": "1.0.0",
+  "description": "script to convert my resume from markdown to html and pdf",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnebuerquo/profile.git"
+  },
+  "keywords": [
+    "resume",
+    "pdf",
+    "conversion"
+  ],
+  "author": "Sherman Adelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnebuerquo/profile/issues"
+  },
+  "homepage": "https://github.com/mnebuerquo/profile",
+  "dependencies": {
+    "async": "^1.3.0",
+    "html-pdf": "^1.2.1",
+    "marked": "^0.3.3",
+    "s3": "^4.4.0"
+  }
+}
