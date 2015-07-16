@@ -2,7 +2,7 @@
 
 6067 Wayside Avenue, Cincinnati, OH 45230
 
-*(513)-218-8048* - *sherman.adelson@gmail.com*
+(513)-218-8048 - sherman.adelson@gmail.com
 
 ##Professional Summary:
 
