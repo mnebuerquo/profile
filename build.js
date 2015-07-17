@@ -2,11 +2,13 @@
 
 var fs = require('fs');
 var path = require('path');
-var md2resume = require('markdown-resume');
+//var md2resume = require('markdown-resume');
 var s3 = require('s3');
 var async = require('async');
 var config = require('./config');
 var client = null;
+var marked = require('marked');
+var pdf = require('html-pdf');
 
 function upload(filename,cb){
 	if(!client){
@@ -37,28 +39,9 @@ function upload(filename,cb){
 
 function main(){
 	var filename = 'sherman-adelson-resume.md';
-	var types = ['html','pdf'];
-
-	function generate(type,next){
-		var outfilename = '/tmp/'+filename.replace('.md','.'+type);
-
-		function publish(err){
-			if(err){
-				return next(err);
-			}
-			upload(outfilename,next);
-		}
-
-		function save(err,out){
-			if(err){
-				return next(err);
-			}
-			fs.writeFile(outfilename,out,publish);
-		}
-
-		md2resume.generate(filename,{format:type},save);
-	}
-
+	var html = ''; 
+	var htmlFilename = '/tmp/'+filename.replace('.md','.html');
+	var pdfFilename = '/tmp/'+filename.replace('.md','.pdf');
 	function done(err){
 		if(err){
 			console.log(err);
@@ -66,7 +49,32 @@ function main(){
 		console.log('Done!');
 	}
 
-	async.each(types,generate,done);
+	function afterSave(err,res){
+		upload(htmlFilename,function(){
+			upload(pdfFilename,done);
+		});
+	}
+
+	function makePDF(err){
+		//err is file write error
+		if(err){
+			return done(err);
+		}
+		pdf.create(html).toFile(pdfFilename,afterSave);
+	}
+
+	function makeHtml(err,data){
+		// err is file read error
+		if(err){
+			return done(err);
+		}
+		// closure scope shares html with other functions
+		html = marked(data.toString('utf8'));
+
+		fs.writeFile(htmlFilename,html,makePDF);
+	}
+
+	fs.readFile(filename,makeHtml);
 }
 
 main();
