@@ -1,4 +1,4 @@
-#!/usr/env/node
+#!/usr/bin/env node
 
 var fs = require('fs');
 var path = require('path');
@@ -9,6 +9,7 @@ var config = require('./config');
 var client = null;
 var marked = require('marked');
 var pdf = require('html-pdf');
+var stripBom = require('strip-bom');
 
 function upload(filename,cb){
 	if(!client){
@@ -69,7 +70,8 @@ function main(){
 			return done(err);
 		}
 		// closure scope shares html with other functions
-		html = marked(data.toString('utf8'));
+		var md = stripBom(data).toString('utf-8');
+		html = marked(md);
 
 		fs.writeFile(htmlFilename,html,makePDF);
 	}
