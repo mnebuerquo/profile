@@ -1,10 +1,9 @@
-﻿#Sherman Adelson
+﻿Sherman Adelson
+===============
 
-6067 Wayside Avenue
-Cincinnati, OH 45230
+6067 Wayside Avenue, Cincinnati, OH 45230
 
-*(513)-218-8048*
-*sherman.adelson@gmail.com*
+(513)-218-8048 - sherman.adelson@gmail.com
 
 ##Professional Summary:
 
@@ -103,10 +102,10 @@ Wrote and tested software under the direction of Lead Engineer and Assistant Dir
 Bachelor of Science in Computer Science,
 Second Major in Psychology,
 Minor in Mathematics
-* Presented “Two topics in Linux Security: The Chroot Jail and Tripwire Intrusion Detection”, to the Western Kentucky University Linux Users Group, 11/7/2000
+* Presented "Two topics in Linux Security: The Chroot Jail and Tripwire Intrusion Detection", to the Western Kentucky University Linux Users Group, 11/7/2000
 * Tutored other students in C++ and other Computer Science topics, 1997 to 1999
-* Co-author of “Self-Esteem Stability and Prejudice”, presented July 23, 1997 to the International Society for Political Psychology
-* Co-author of “An Omnibus Study of Personality, Values, and Ethnocentrism”, presented July 3, 1996 to the International Society for Political Psychology
+* Co-author of "Self-Esteem Stability and Prejudice", presented July 23, 1997 to the International Society for Political Psychology
+* Co-author of "An Omnibus Study of Personality, Values, and Ethnocentrism", presented July 3, 1996 to the International Society for Political Psychology
 
 
 ##Technologies:
