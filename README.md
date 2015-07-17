@@ -38,7 +38,7 @@ Sherman's Bus?")
 ### Open Source
 I recently decided to start open-sourcing some of the smaller projects I've 
 been working on, so that maybe they can be useful to someone else. This is
-going slowly now, but I'm going to try to do at least one commit per
+going slowly for now, but my goal is to do at least one commit per
 day.
 
 [Sherman Adelson on Github](https://github.com/mnebuerquo?tab=repositories "My Github Repositories")
