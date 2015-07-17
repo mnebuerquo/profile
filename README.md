@@ -1,7 +1,8 @@
 # Sherman Adelson
 
 This is my personal profile repository, mostly meant to be a vehicle to simplify
-sending my resume to recruiters and the like.
+sending my resume to recruiters. I will also start adding links to my
+projects on this page.
 
 ## Resume on Github
 I was originally using Google Docs to edit my resume. This worked fine,
@@ -18,6 +19,17 @@ formatting and to make the script portable.
 * [PDF Version](https://s3.amazonaws.com/sherman-adelson-resume/sherman-adelson-resume.pdf "Sherman Adelson - Resume - PDF")
 
 * [HTML Version](https://s3.amazonaws.com/sherman-adelson-resume/sherman-adelson-resume.html "Sherman Adelson - Resume - HTML")
+
+## Projects
+
+I used the Cincinnati Metro to get to work every day, and when I learned
+that Cinci Metro was exporting GTFS data, I had to build a program to
+use it. While it's still a work in progress, it is already useful if
+you're waiting for a bus. There are a ton of features I haven't yet
+added, but it's a good start.
+
+[Where's Sherman's bus?](http://www.wheresshermansbus.com "Where's
+Sherman's Bus?")
 
 ## Open Source
 I recently decided to start open-sourcing some of the smaller projects I've 
