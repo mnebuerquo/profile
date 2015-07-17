@@ -28,6 +28,8 @@ use it. While it's still a work in progress, it is already useful if
 you're waiting for a bus. There are a ton of features I haven't yet
 added, but it's a good start.
 
+This project is not open source, but all or part of it may be in the future.
+
 [Where's Sherman's bus?](http://www.wheresshermansbus.com "Where's
 Sherman's Bus?")
 
