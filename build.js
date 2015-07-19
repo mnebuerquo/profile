@@ -9,8 +9,6 @@ var client = null;
 var marked = require('marked');
 var pdf = require('html-pdf');
 var stripBom = require('strip-bom');
-var mord = require('markdown-word');
-var htmlDocx = require('html-docx-js');
 var Handlebars = require('handlebars');
 var markdown = '';
 var html = '';
@@ -99,37 +97,11 @@ function dopdf(next){
 	pdf.create(html).toFile(pdfFilename,after);
 }
 
-function old_doword(next){
-	var wordFilename = path.join(config.tempdir,config.input.replace('.md','.docx'));
-	function after(err){
-		if(err){
-			return next(err);
-		}
-		upload(wordFilename,next);
-	}
-	mord.documentFromMarkdown(markdown,wordFilename,after);
-}
-
-function doword(next){
-	var wordFilename = path.join(config.tempdir,config.input.replace('.md','.docx'));
-
-	function after(err){
-		if(err){
-			next(err);
-		}
-		upload(wordFilename,next);
-	}
-
-	var converted = htmlDocx.asBlob(html);
-	fs.writeFile(wordFilename,converted,after);
-}
-
 function build(){
 	var steps = [
 		domd,
 		dohtml,
 		dopdf,
-		doword
 	];
 	
 	async.waterfall( steps, done );
