@@ -1,5 +1,4 @@
-﻿Sherman Adelson
-===============
+﻿#Sherman Adelson
 
 6067 Wayside Avenue, Cincinnati, OH 45230
 
