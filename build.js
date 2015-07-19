@@ -2,7 +2,6 @@
 
 var fs = require('fs');
 var path = require('path');
-//var md2resume = require('markdown-resume');
 var s3 = require('s3');
 var async = require('async');
 var config = require('./config');
@@ -10,6 +9,9 @@ var client = null;
 var marked = require('marked');
 var pdf = require('html-pdf');
 var stripBom = require('strip-bom');
+var Handlebars = require('handlebars');
+var markdown = '';
+var html = '';
 
 function upload(filename,cb){
 	if(!client){
@@ -38,45 +40,71 @@ function upload(filename,cb){
 	});
 }
 
-function main(){
-	var filename = 'sherman-adelson-resume.md';
-	var html = ''; 
-	var htmlFilename = '/tmp/'+filename.replace('.md','.html');
-	var pdfFilename = '/tmp/'+filename.replace('.md','.pdf');
-	function done(err){
-		if(err){
-			console.log(err);
-		}
-		console.log('Done!');
+function done(err){
+	if(err){
+		console.log(err);
 	}
-
-	function afterSave(err,res){
-		upload(htmlFilename,function(){
-			upload(pdfFilename,done);
-		});
-	}
-
-	function makePDF(err){
-		//err is file write error
-		if(err){
-			return done(err);
-		}
-		pdf.create(html).toFile(pdfFilename,afterSave);
-	}
-
-	function makeHtml(err,data){
-		// err is file read error
-		if(err){
-			return done(err);
-		}
-		// closure scope shares html with other functions
-		var md = stripBom(data).toString('utf-8');
-		html = marked(md);
-
-		fs.writeFile(htmlFilename,html,makePDF);
-	}
-
-	fs.readFile(filename,makeHtml);
+	console.log('Done!');
 }
 
-main();
+function domd(next)
+{ 
+	function afterLoad(err,data){
+		if(err){
+			console.log(err);
+			return next(err);
+		}
+		markdown = stripBom(data).toString('utf-8');
+		next(null);
+	}
+	fs.readFile(config.input,afterLoad); 
+}
+
+function dohtml(next){
+	// html is global so it can be used by html->pdf conversion
+	var content = config.htmlcontent || {};
+	content.body = marked(markdown);
+	var htmlFilename = path.join(config.tempdir,config.input.replace('.md','.html'));
+
+	function after(err){
+		if(err){
+			return next(err);
+		}
+		upload(htmlFilename,next);
+	}
+
+	function afterload(err,source){
+		if(err){
+			return next(err);
+		}
+		//compile template, render html
+		var template = Handlebars.compile(source.toString('utf-8'));
+		html = template(content);
+		fs.writeFile(htmlFilename,html,after);
+	}
+
+	fs.readFile('template.html',afterload);
+}
+
+function dopdf(next){
+	var pdfFilename = path.join(config.tempdir,config.input.replace('.md','.pdf'));
+	function after(err){
+		if(err){
+			return next(err);
+		}
+		upload(pdfFilename,next);
+	}
+	pdf.create(html).toFile(pdfFilename,after);
+}
+
+function build(){
+	var steps = [
+		domd,
+		dohtml,
+		dopdf,
+	];
+	
+	async.waterfall( steps, done );
+}
+
+build();

@@ -23,6 +23,7 @@
   "homepage": "https://github.com/mnebuerquo/profile",
   "dependencies": {
     "async": "^1.3.0",
+    "handlebars": "^3.0.3",
     "html-pdf": "^1.2.1",
     "marked": "^0.3.3",
     "s3": "^4.4.0",
