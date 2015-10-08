@@ -9,6 +9,22 @@
 Experienced in multiple aspects of Software Engineering, particularly modern web technologies, open source tools, project management, and user interface design.
 
 ##Experience:
+
+### Robert Half Technology
+#### Contractor - July 2015 to Present
+Responsible for software architecture, systems administration, and
+client deliverables.
+* Identified and migrated legacy servers, reducing monthly
+  hosting cost.
+* Created policy for consistent, secure documentation of server
+  configuration and login credentials for multiple sites.
+* Performed emergency server diagnostics and restoration for multiple
+  clients.
+* Joined a failing software project and provided technical leadership
+  enabling the project to be completed.
+* Performed triage on compromised website and composed plan for
+  recovery.
+
 ###Zipscene, LLC
 ####Team Lead - February 2015 to July 2015
 Responsible for team maintaining customer facing software and building replacements for legacy systems.
