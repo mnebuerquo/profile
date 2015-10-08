@@ -24,6 +24,7 @@ client deliverables.
   enabling the project to be completed.
 * Performed triage on compromised website and composed plan for
   recovery.
+* Developed architecture for ecommerce dashboard product.
 
 ###Zipscene, LLC
 ####Team Lead - February 2015 to July 2015
