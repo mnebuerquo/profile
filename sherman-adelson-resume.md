@@ -13,7 +13,7 @@ Experienced in multiple aspects of Software Engineering, particularly modern web
 ### Robert Half Technology
 #### Contractor - July 2015 to Present
 Responsible for software architecture, systems administration, and
-client deliverables.
+client deliverables for a small digital advertising company.
 * Identified and migrated legacy servers, reducing monthly
   hosting cost.
 * Created policy for consistent, secure documentation of server
@@ -25,6 +25,7 @@ client deliverables.
 * Performed triage on compromised website and composed plan for
   recovery.
 * Developed architecture for ecommerce dashboard product.
+* Worked with multiple remote teams, vendors, and offshore developers.
 
 ###Zipscene, LLC
 ####Team Lead - February 2015 to July 2015
