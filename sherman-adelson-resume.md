@@ -11,7 +11,7 @@ Experienced in multiple aspects of Software Engineering, particularly modern web
 ##Experience:
 
 ### Robert Half Technology
-#### Contractor - July 2015 to Present
+#### Consultant - July 2015 to Present
 Responsible for software architecture, systems administration, and
 client deliverables for a small digital advertising company.
 * Identified and migrated legacy servers, reducing monthly
@@ -22,7 +22,7 @@ client deliverables for a small digital advertising company.
   clients.
 * Joined a failing software project and provided technical leadership
   enabling the project to be completed.
-* Performed triage on compromised website and composed plan for
+* Performed triage on a compromised website and composed a plan for
   recovery.
 * Developed architecture for ecommerce dashboard product.
 * Worked with multiple remote teams, vendors, and offshore developers.
