@@ -14,18 +14,11 @@ Experienced in multiple aspects of Software Engineering, particularly modern web
 #### Consultant - July 2015 to Present
 Responsible for software architecture, systems administration, and
 client deliverables for a small digital advertising company.
-* Joined a failing software project and provided technical leadership
-  enabling the project to be completed.
-* Developed policy for consistent, secure documentation of server
-  configuration and login credentials for multiple sites.
+* Joined a failing software project and provided technical leadership enabling the project to be completed. Provided technical communication with offshore team, advised on site security issues and company security policy, met with client and negotiated a new launch plan allowing incomplete features to be postponed.
+* Developed policy for consistent, secure documentation of server configuration and login credentials for multiple sites. Required credentials to be stored securely, educated team about sending credentials over insecure channels, and set stronger passwords for servers.
 * Developed architecture for ecommerce dashboard product.
-* Worked with multiple remote teams, vendors, and offshore developers.
-* Identified and migrated legacy servers, reducing monthly
-  hosting cost.
-* Performed triage on a compromised website and created a plan for
-  recovery.
-* Performed emergency server diagnostics and restoration for multiple
-  clients.
+* Identified and migrated legacy servers, reducing monthly hosting cost.
+* Performed triage on a compromised website and created a plan for recovery. Also diagnosed and restored service on multiple crashed or misconfigured web apps.
 
 ###Zipscene, LLC
 ####Team Lead - February 2015 to July 2015
