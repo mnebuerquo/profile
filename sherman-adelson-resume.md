@@ -10,8 +10,47 @@ Experienced in multiple aspects of Software Engineering, particularly modern web
 
 ##Experience:
 
+### Fischer Homes
+#### Senior Software Engineer - January 2016 to Present
+Provided technical leadership and modern software development experience to
+growing team.
+* Responsible for maintenance on Enterprise CRM system (PhP/Yii,
+  Backbone.js).
+* Provided technical direction to external contractors developing components
+  for multiple systems connected with CRM. Reviewed and advised architectural decisions.
+* Interviewed and evaluated new hire candidates for multiple levels of
+  software developer positions.
+* Revised sales staff performance monitoring application to improve accuracy
+  and fairness of the measurements. Worked with Sales Director to review
+  changes and accurately document new system for sales staff.
+* Provided mentorship to junior developers, assisting with API integrations,
+  debugging, and coached better coding practices.
+* Configured and automated staging server for automated and manual testing
+  of CRM system (Fedora, Mariadb, AWS).
+* Evaluated off-the-shelf solutions for real-time data reporting.
+* Encouraged unit testing, implemented first unit tests for CRM system to
+  lead by example (PhpUnit, Codeception).
+* Developed and documented system to replace unreliable product for database migration and
+  integration.
+* Contributed to requirements analysis and architecture of Investment Manual
+  Options management system, a core business function required for all
+  internal and customer facing elements of home sale contract creation.
+
+### Devoo
+#### Co-Founder - January 2016 to Present
+Devoo develops mobile and web applications to enable users to easily make plans 
+with their friends and to enable event promoters to identify and target connectors 
+in their communities. Devoo is a recent graduate of the Ocean Accelerator.
+* Worked with two other co-founders to define the company's vision and product. 
+* Worked with contract programmers to build first app prototype (native IOS and Parse).
+* Built back-end API with admin console (Node.js/Express and Mithril.js).
+* Integrated with multiple external event aggregator and ticketing APIs.
+* Managed server/service infrastructure on AWS and Parse.
+* Met with potential investors and discussed technical and business
+  opportunities for our product.
+
 ### Robert Half Technology
-#### Consultant - July 2015 to Present
+#### Consultant - July 2015 to October 2115
 Responsible for software architecture, systems administration, and
 client deliverables for a small digital advertising company.
 * Joined a failing software project and provided technical leadership 
@@ -19,10 +58,13 @@ client deliverables for a small digital advertising company.
   with offshore team, advised on site security issues and company 
   security policy, met with client and negotiated a new launch plan 
   allowing incomplete features to be postponed.
-* Developed policy for consistent, secure documentation of server configuration and login credentials for multiple sites. Required credentials to be stored securely, educated team about sending credentials over insecure channels, and set stronger passwords for servers.
+* Developed policy for consistent, secure documentation of server configuration 
+  and login credentials for multiple sites. Educated team about password best 
+  practices.
 * Developed architecture for ecommerce dashboard product.
 * Identified and migrated legacy servers, reducing monthly hosting cost.
-* Performed triage on a compromised website and created a plan for recovery. Also diagnosed and restored service on multiple crashed or misconfigured web apps.
+* Performed triage on a compromised website and created a plan for recovery. Also 
+  diagnosed and restored service on multiple crashed or misconfigured web apps.
 
 ###Zipscene, LLC
 ####Team Lead - February 2015 to July 2015
@@ -126,9 +168,9 @@ Minor in Mathematics
 ###Languages:
 Javascript, Node.js, Python, PHP, SQL, Bash, C/C++, Perl, Object Pascal, Visual Basic
 ###Libraries and Frameworks:
-Express, Django, jQuery, Tornado Web Server, Ember, Silverstripe, Zend
+Express.js, Backbone.js, Mithril.js, Django, jQuery, Tornado Web Server, Ember.js, Silverstripe, Zend, Yii
 ###Software:
-Linux, Apache, Nginx, Mysql, MongoDB, Git, Amazon Web Services (EC2, S3, ELB, FPS), Vagrant, VirtualBox, Wordpress, Stripe, Subversion, Plesk, Simple Machines Forums, Drupal, osCommerce, Magento Ecommerce
+Linux, Apache, Nginx, Mysql, MongoDB, Git, Amazon Web Services (EC2, S3, ELB, FPS), Vagrant, VirtualBox, Wordpress, Stripe, Subversion, Plesk, Simple Machines Forums, Drupal, osCommerce, Magento Ecommerce, Mandrill/Mailchimp
 ###Techniques:
-Web Application Design, Ajax, Comet, User Interface Design, Object Oriented Design, Database Design, Agile/Scrum
+Web Application Design, API Design, Ajax, Comet, User Interface Design, Object Oriented Design, Database Design, Agile/Scrum
 
