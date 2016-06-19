@@ -30,8 +30,8 @@ growing team.
 * Evaluated off-the-shelf solutions for real-time data reporting.
 * Encouraged unit testing, implemented first unit tests for CRM system to
   lead by example (PhpUnit, Codeception).
-* Developed and documented system to replace unreliable product for database migration and
-  integration.
+* Developed and documented simplified custom system to replace legacy product 
+  for database migration and integration (Ubuntu, PhP, ODBC, Pervasive, MySQL).
 * Contributed to requirements analysis and architecture of Investment Manual
   Options management system, a core business function required for all
   internal and customer facing elements of home sale contract creation.
@@ -63,8 +63,8 @@ client deliverables for a small digital advertising company.
   practices.
 * Developed architecture for ecommerce dashboard product.
 * Identified and migrated legacy servers, reducing monthly hosting cost.
-* Performed triage on a compromised website and created a plan for recovery. Also 
-  diagnosed and restored service on multiple crashed or misconfigured web apps.
+* Performed triage on a compromised website and created a plan for recovery. 
+* Diagnosed and restored service on multiple crashed or misconfigured web apps.
 
 ###Zipscene, LLC
 ####Team Lead - February 2015 to July 2015
