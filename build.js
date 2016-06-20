@@ -13,6 +13,19 @@ var Handlebars = require('handlebars');
 var markdown = '';
 var html = '';
 
+/* config description
+	{
+	"s3Options": {
+		"accessKeyId": "aws access key",
+		"secretAccessKey": "aws secret"
+	},
+	"s3Bucket":"sherman-adelson-resume",
+	"input": "sherman-adelson-resume.md",
+	"htmlcontent":"",
+	"tempdir":"/tmp/"
+}
+*/
+
 function upload(filename,cb){
 	if(!client){
 		client = s3.createClient({
@@ -94,6 +107,22 @@ function dopdf(next){
 		}
 		upload(pdfFilename,next);
 	}
+	var options = {
+		"border": {
+			"top": "1in",            // default is 0, units: mm, cm, in, px 
+			"right": "0.5in",
+			"bottom": "0.75in",
+			"left": "0.5in"
+		},
+		"header": {
+			"height": ".25in",
+			"contents": '<div style="text-align: center;">Sherman Adelson</div>'
+		},
+		"footer": {
+			"height": ".15in",
+			"contents": '<span style="color: #444;">{{page}}</span>/<span>{{pages}}</span>'
+		},
+	};
 	pdf.create(html).toFile(pdfFilename,after);
 }
 

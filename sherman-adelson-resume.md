@@ -1,14 +1,14 @@
-﻿#Sherman Adelson
+﻿# Sherman Adelson
 
 6067 Wayside Avenue, Cincinnati, OH 45230
 
 (513)-218-8048 - sherman.adelson@gmail.com
 
-##Professional Summary:
+## Professional Summary:
 
 Experienced in multiple aspects of Software Engineering, particularly modern web technologies, open source tools, project management, and user interface design.
 
-##Experience:
+## Experience:
 
 ### Fischer Homes
 #### Senior Software Engineer - January 2016 to Present
@@ -66,8 +66,8 @@ client deliverables for a small digital advertising company.
 * Performed triage on a compromised website and created a plan for recovery. 
 * Diagnosed and restored service on multiple crashed or misconfigured web apps.
 
-###Zipscene, LLC
-####Team Lead - February 2015 to July 2015
+### Zipscene, LLC
+#### Team Lead - February 2015 to July 2015
 Responsible for team maintaining customer facing software and building replacements for legacy systems.
 * Led team of 5 developers, each working on several projects per week. Conducted code reviews, wrote instructions for QA team, and ensured deadlines were met.
 * Maintained production servers hosting websites and ecommerce for over a dozen national and international restaurant chains.
@@ -78,7 +78,7 @@ Responsible for team maintaining customer facing software and building replaceme
 * Continued to perform the duties of a Back-end Developer in addition to
   fulfilling Team Lead responsibilities.
 
-####Back-end Developer - September 2014 to February 2015
+#### Back-end Developer - September 2014 to February 2015
 Responsible for maintaining and enhancing customer facing software for the Delivery Team.
 * Maintained legacy websites and fulfilled customer requests with short deadlines.
 * Fixed bugs and added features to 8 different CMS and website platforms in Node.js and PHP.
@@ -88,16 +88,16 @@ Responsible for maintaining and enhancing customer facing software for the Deliv
 * Responsible for production and QA deployment of Magento e-commerce platform.
 * Contributed to documentation of legacy maintenance tasks.
 
-###Really Big Spiders, LLC
-####Owner, Web Designer, Software Engineer - 2007 to Present
+### Really Big Spiders, LLC
+#### Owner, Web Designer, Software Engineer - 2007 to Present
 *Tales From the Strange Universe (TFTSU)* http://www.tftsu.com/
 
 Developed Tales From the Strange Universe, an internet browser game with players in more than 10 countries.
 * Designed and built TFTSU using PHP, Python, Javascript, Linux, Nginx, and MySql. 
 * Used Ajax techniques with jQuery and Javascript to implement advanced user interface features. 
 * Built a pay-to-play token system using Amazon FPS for credit card processing. Later migrated payment system from Amazon FPS to Stripe.
-* Performed multiple rounds of Usability Testing to refine interface and features. 
-* Built an integrated real-time chat system to encourage social networking in TFTSU. 
+* Performed multiple rounds of Usability Testing to refine interface and features.
+* Built an integrated real-time chat system to encourage social networking in TFTSU.
 * Integrated Simple Machines Forum and MediaWiki with TFTSU using single sign-on to foster community interaction and participation. 
 * Used Django and Tornado Web Server to implement Comet techniques and allow server-push for chat and real-time alerts.
 * Used Python and Bash to automate server deployment, configuration, and dependency installation on Amazon EC2 instances. Automated code deployment from Subversion repository to web server using Python. Automated nightly backups of all databases to Amazon S3.
@@ -111,8 +111,8 @@ Designed web sites and customized Open Source web applications to customer requi
 * Built websites using Drupal CMS with extensions including calendars and shopping carts.
 * Hosted customer websites on a LAMP stack (Linux, Apache, Mysql, PHP) on Plesk managed servers.
 
-###Ohmart/Vega Corp.
-####Software Engineer - 2003 to 2007
+### Ohmart/Vega Corp.
+#### Software Engineer - 2003 to 2007
 *Industrial Insight Wireless Sensor System*
 
 Designed and wrote software under supervision of Industrial Insight Product Manager.
@@ -136,8 +136,8 @@ Designed and wrote software under the supervision of the Pro Trac Project Manage
 * Developed all software to Safety Integrity Level II standards, using the IAR embedded C/C++ compiler, IBM Rhapsody and IBM Test Real Time.
 * Worked in a geographically distributed team with colleagues in the US and Germany.
 
-###Central Kentucky Mechanical, Inc.
-####Software Engineer - 2002 to 2003
+### Central Kentucky Mechanical, Inc.
+#### Software Engineer - 2002 to 2003
 Designed, wrote, and tested software under the direction of the company owner. Supervised two full-time programmers and multiple contract programmers. Adapted software designs to rapidly changing business requirements.
 * Designed and wrote software for call routing and phone operator workflow to link caller id logs to customer orders and enable operators to handle multiple incoming calls. 
 * Designed and wrote software for automated phone menu based ordering system.
@@ -145,15 +145,15 @@ Designed, wrote, and tested software under the direction of the company owner. S
 * Used Delphi Object Pascal, Microsoft Visual Basic, Microsoft SQL Server, and PBX phone system interface.
 
 
-###Western Kentucky University Applied Physics Institute
-####Programmer - 1999 to 2001
+### Western Kentucky University Applied Physics Institute
+#### Programmer - 1999 to 2001
 Wrote and tested software under the direction of Lead Engineer and Assistant Director. 
 * Wrote production software for user interface, data acquisition and data analysis for the Online Elemental Coal Analyzer.  Used Windows NT, C++, MS Visual Studio, MFC, TCP/IP, DDE, proprietary data acquisition cards, Programmable Logic Controllers, and other tools.
 * Supervised two programmers working on the Online Elemental Coal Analyzer project.
 * Wrote program to choose safe combinations of simulation materials for experiments with prototype bomb detection system. 
 
-##Education:
-###Western Kentucky University
+## Education:
+### Western Kentucky University
 1994 to 2000
 Bachelor of Science in Computer Science,
 Second Major in Psychology,
@@ -164,13 +164,13 @@ Minor in Mathematics
 * Co-author of "An Omnibus Study of Personality, Values, and Ethnocentrism", presented July 3, 1996 to the International Society for Political Psychology
 
 
-##Technologies:
-###Languages:
+## Technologies:
+### Languages:
 Javascript, Node.js, Python, PHP, SQL, Bash, C/C++, Perl, Object Pascal, Visual Basic
-###Libraries and Frameworks:
+### Libraries and Frameworks:
 Express.js, Backbone.js, Mithril.js, Django, jQuery, Tornado Web Server, Ember.js, Silverstripe, Zend, Yii
-###Software:
+### Software:
 Linux, Apache, Nginx, Mysql, MongoDB, Git, Amazon Web Services (EC2, S3, ELB, FPS), Vagrant, VirtualBox, Wordpress, Stripe, Subversion, Plesk, Simple Machines Forums, Drupal, osCommerce, Magento Ecommerce, Mandrill/Mailchimp
-###Techniques:
+### Techniques:
 Web Application Design, API Design, Ajax, Comet, User Interface Design, Object Oriented Design, Database Design, Agile/Scrum
 
