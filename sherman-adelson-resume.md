@@ -10,8 +10,31 @@ Experienced in multiple aspects of Software Engineering, particularly modern web
 
 ## Experience:
 
+### Kroger Digital
+#### Senior Software Engineer - July 2016 to Present
+Member of team Echo, handling log aggregation, search, alerting and prediction for
+all of Kroger Digital.
+* Developed user interface for Rollup project. Written in
+  Clojure/Clojurescript, this tool presented complex configuration to the
+  user in a clean and understandable way, then generated functions used in the
+  servers to transform and aggregate data based on user choices.
+* Developed tools to automate and simplify Elasticsearch index and template
+  configuration. Nicknamed "The Speed-up Buttons" these tools are used under
+  heavy load to gain temporary boost in indexing speed at the cost of some
+  redundancy.
+* Improved code structure in Beacon alarm configuration interface, converted
+  project to a consistent React/Redux architecture and added additional unit
+  tests.
+* Supported other Kroger Digital teams, helping them improve indexing on
+  their log data for better searching and analytics.
+* Maintained server clusters for production, stage, and test as part of 6
+  person on-call rotation. This included troubleshooting, dev-ops, and
+  performance monitoring on a 25 node Elasticsearch cluster. The system as a
+  whole logs up to 45k messages per second at peak times and ingests more than
+  1 terabyte of data per day.
+
 ### Fischer Homes
-#### Senior Software Engineer - January 2016 to Present
+#### Senior Software Engineer - January 2016 to July 2016
 Provided technical leadership and modern software development experience to
 growing team.
 * Responsible for maintenance on Enterprise CRM system (PhP/Yii,
