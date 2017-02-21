@@ -45,6 +45,7 @@ function upload(filename,cb){
 	};
 	var uploader = client.uploadFile(params);
 	uploader.on('error', function(err){
+		console.log(err);
 		return cb(err);
 	});
 	uploader.on('end', function(data){
@@ -81,6 +82,7 @@ function dohtml(next){
 
 	function after(err){
 		if(err){
+			console.log(err);
 			return next(err);
 		}
 		upload(htmlFilename,next);
@@ -88,6 +90,7 @@ function dohtml(next){
 
 	function afterload(err,source){
 		if(err){
+			console.log(err);
 			return next(err);
 		}
 		//compile template, render html
@@ -103,6 +106,7 @@ function dopdf(next){
 	var pdfFilename = path.join(config.tempdir,config.input.replace('.md','.pdf'));
 	function after(err){
 		if(err){
+			console.log(err);
 			return next(err);
 		}
 		upload(pdfFilename,next);
@@ -123,6 +127,7 @@ function dopdf(next){
 			"contents": '<span style="color: #444;">{{page}}</span>/<span>{{pages}}</span>'
 		},
 	};
+	console.log("About to create pdf...");
 	pdf.create(html).toFile(pdfFilename,after);
 }
 
