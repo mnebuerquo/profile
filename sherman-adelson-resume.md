@@ -11,8 +11,38 @@ technologies, open source tools, project management, and user interface design.
 
 ## Experience:
 
+### Eliassen Group (Kroger Digital)
+#### Senior Software Engineer - August 2018 to Present
+
+* Taught AMP CMS team how to better use Echo log aggregation services.
+* Developed several features of the CMS UI for Kroger websites.
+* Created user action log for CMS UI for web app troubleshooting and to enable
+    future auditability.
+* Restructured Gitlab pipelines for automated pre-merge smoke tests, to improve
+	reliability and increase developer efficiency.
+* Developed a structured error handling system for dynamic content rendering,
+	which now prevents exceptions from interrupting page rendering, logs
+	errors, and alerts the support rotation to problems.
+* Became the sole developer in charge of dynamic content rendering on
+	Kroger websites.
+* Formed a new team within Kroger Digital for maintaining and enhancing dynamic
+    content rendering on all Kroger websites.
+
+### Spatial.AI
+#### Senior Software Engineer - January 2018 to August 2018
+
+Joined growing startup to provide senior technical experience and help grow the
+company.
+
+* Built global log aggregation system to monitor services and servers, using
+	Elasticsearch, Logstash, and Kibana.
+* Improved efficiency of data harvesting with Gnip/Twitter by 25%.
+* Created scalable data harvesting programs for other sources.
+* Created systematic security model for company servers on both Digital Ocean and
+  AWS.
+
 ### Kroger Digital
-#### Senior Software Engineer - July 2016 to Present
+#### Senior Software Engineer - July 2016 to January 2018
 Member of team Echo, handling log aggregation, search, alerting and prediction for
 all of Kroger Digital.
 * Developed user interface for Rollup project. Written in
@@ -32,7 +62,7 @@ all of Kroger Digital.
   person on-call rotation. This included troubleshooting, dev-ops, and
   performance monitoring on a 25 node Elasticsearch cluster. The system as a
   whole logs up to 45k messages per second at peak times and ingests more than
-  1 terabyte of data per day.
+  1 terabyte of data per day (as of January 2018).
 
 ### Fischer Homes
 #### Senior Software Engineer - January 2016 to July 2016
