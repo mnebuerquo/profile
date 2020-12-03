@@ -4,7 +4,8 @@
   "description": "script to convert my resume from markdown to html and pdf",
   "main": "build.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -v && node ./build.js"
   },
   "repository": {
     "type": "git",
@@ -22,11 +23,11 @@
   },
   "homepage": "https://github.com/mnebuerquo/profile",
   "dependencies": {
-    "async": "^1.3.0",
-    "handlebars": "^3.0.3",
-    "html-pdf": "^1.5.0",
-    "marked": "^0.3.3",
-    "s3": "^4.4.0",
-    "strip-bom": "^2.0.0"
+    "async": "*",
+    "handlebars": "*",
+    "html-pdf": "*",
+    "marked": "*",
+    "s3": "*",
+    "strip-bom": "*"
   }
 }

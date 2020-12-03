@@ -62,7 +62,7 @@ function done(err){
 }
 
 function domd(next)
-{ 
+{
 	function afterLoad(err,data){
 		if(err){
 			console.log(err);
@@ -71,7 +71,7 @@ function domd(next)
 		markdown = stripBom(data).toString('utf-8');
 		next(null);
 	}
-	fs.readFile(config.input,afterLoad); 
+	fs.readFile(config.input,afterLoad);
 }
 
 function dohtml(next){
@@ -113,7 +113,7 @@ function dopdf(next){
 	}
 	var options = {
 		"border": {
-			"top": "1in",            // default is 0, units: mm, cm, in, px 
+			"top": "1in",            // default is 0, units: mm, cm, in, px
 			"right": "0.5in",
 			"bottom": "0.75in",
 			"left": "0.5in"
@@ -137,7 +137,7 @@ function build(){
 		dohtml,
 		dopdf,
 	];
-	
+
 	async.waterfall( steps, done );
 }
 
